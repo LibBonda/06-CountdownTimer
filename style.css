@@ -21,6 +21,31 @@ body {
     margin: 0;
     overflow: hidden;
 }
+#overlay {
+    position: fixed;
+    display: block;
+    width: 150%;
+    height: 150%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    z-index: 2; /* Ensure the overlay is above other elements */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.logo{
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    display: block;
+    top: 1000px;
+    left: 0;
+    right: 0;
+    /* float: left;
+    padding: 0 20px 20px 0; */
+}
+
 
 h1 {
     font-family: 'poppins', sans-serif;
